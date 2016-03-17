@@ -24,7 +24,7 @@ namespace Wonder
         List<Conta> ContasDataBase = new List<Conta>();
         struct Links
         {
-            public const string Site = "http://coc-wild.esy.es/";
+            public const string Site = "Seu WebSite";
             public const string PageContas = Site + "cnts.cnt";
             public const string PageLimpar = Site + "Limpar.php";
         }
